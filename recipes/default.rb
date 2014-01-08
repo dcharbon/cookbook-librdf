@@ -1,6 +1,6 @@
 require "tmpdir"
 
-filename = "redland-#{node.raptor.version}"
+filename = "redland-#{node.librdf.version}"
 td = Dir.tmpdir
 local_tarball = File.join(td, "#{filename}.tar.gz")
 tarball_dir = File.join(td, "#{filename}")
