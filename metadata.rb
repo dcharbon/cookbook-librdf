@@ -1,0 +1,7 @@
+maintainer        "ADADA, LLC"
+maintainer_email  "chef@adadabase.com"
+license           "MIT"
+description       "Installs librdf library from redland."
+version           "0.1"
+long_description  "Installs librdf library from redland."
+depends           "raptor rasqal"
